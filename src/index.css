@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+.container {
+  @apply mx-auto px-4;
+}
+
+h1 {
+  @apply text-3xl font-bold mb-4;
+}
+
+p {
+  @apply text-gray-300;
+}
+
+input {
+  @apply bg-gray-800 text-white rounded p-2 w-full;
+}
+
+button {
+  @apply bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors;
+}
